@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f64a1da0-f628-4dd3-93dd-8dfee19dba15" name="Changes" comment="Base tests for Logging In was created">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" afterDir="false" />
+    <list default="true" id="f64a1da0-f628-4dd3-93dd-8dfee19dba15" name="Changes" comment="Parallelism was created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SeleniumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +21,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="12331d02-d55e-4764-8e1c-75f052a1b4ad" />
+        <option name="url" value="https://github.com/mvlasov1977/TestLogin" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -155,11 +165,19 @@
       <option name="project" value="LOCAL" />
       <updated>1689412941449</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Parallelism was created">
+      <created>1689527899236</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689527899236</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Base tests for Logging In was created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Base tests for Logging In was created" />
+    <MESSAGE value="Parallelism was created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parallelism was created" />
   </component>
 </project>
