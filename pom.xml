@@ -76,7 +76,7 @@
                 <artifactId>maven-surefire-report-plugin</artifactId>
                 <version>3.1.2</version>
                 <configuration>
-                    <outputName>Report homework 13</outputName>
+                    <outputName>Report homework 14</outputName>
                 </configuration>
             </plugin>
         </plugins>
