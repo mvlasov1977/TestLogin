@@ -12,7 +12,7 @@ public class SeleniumTest {
     private static final String PASSWORD_TRUE = "SuperSecretPassword!";
     private static final String LOGIN_FALSE = "garrypotter";
     private static final String PASSWORD_FALSE = "avadakedabra";
-    //public static WebDriver chromeDriver;
+
     /*
      https://the-internet.herokuapp.com/login - написати 2 тести на коректний та некоректний логін.
      В першому випадку перевірити, що відображається повідомлення "You logged into a secure area!",
@@ -34,7 +34,7 @@ public class SeleniumTest {
         chromeDriver.get(TEST_PAGE);
         loggingIn(chromeDriver, LOGIN_TRUE,PASSWORD_TRUE);
         WebElement completeMessage = chromeDriver.findElement(By.id("flash"));
-        Assertions.assertEquals(completeMessage.getText().contains("You logged into a secure area!\n"),true);
+        Assertions.assertTrue(completeMessage.getText().contains("You logged into a secure area!\n"));
         chromeDriver.quit();
     }
     @Test
@@ -43,7 +43,7 @@ public class SeleniumTest {
         chromeDriver.get(TEST_PAGE);
         loggingIn(chromeDriver, LOGIN_FALSE,PASSWORD_TRUE);
         WebElement completeMessage = chromeDriver.findElement(By.id("flash"));
-        Assertions.assertEquals(completeMessage.getText().contains("Your username is invalid!\n"),true);
+        Assertions.assertTrue(completeMessage.getText().contains("Your username is invalid!\n"));
         chromeDriver.quit();
     }
     @Test
@@ -52,7 +52,7 @@ public class SeleniumTest {
         chromeDriver.get(TEST_PAGE);
         loggingIn(chromeDriver, LOGIN_TRUE,PASSWORD_FALSE);
         WebElement completeMessage = chromeDriver.findElement(By.id("flash"));
-        Assertions.assertEquals(completeMessage.getText().contains("Your password is invalid!\n"),true);
+        Assertions.assertTrue(completeMessage.getText().contains("Your password is invalid!\n"));
         chromeDriver.quit();
     }
 }
