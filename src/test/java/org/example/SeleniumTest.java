@@ -33,7 +33,7 @@ public class SeleniumTest {
     @Test
     public void checkTrueAuthorisationProcess() {
         //System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
+        //System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
         WebDriver chromeDriver = new ChromeDriver();
         chromeDriver.get(TEST_PAGE);
         loggingIn(chromeDriver, LOGIN_TRUE,PASSWORD_TRUE);
@@ -44,7 +44,7 @@ public class SeleniumTest {
     @Test
     public void checkLoginFalseAuthorisationProcess(){
         //System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
+        //System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
         WebDriver chromeDriver = new ChromeDriver();
         chromeDriver.get(TEST_PAGE);
         loggingIn(chromeDriver, LOGIN_FALSE,PASSWORD_TRUE);
@@ -55,7 +55,7 @@ public class SeleniumTest {
     @Test
     public void checkPasswordFalseAuthorisationProcess(){
         //System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
+        //System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
         WebDriver chromeDriver = new ChromeDriver();
         chromeDriver.get(TEST_PAGE);
         loggingIn(chromeDriver, LOGIN_TRUE,PASSWORD_FALSE);
