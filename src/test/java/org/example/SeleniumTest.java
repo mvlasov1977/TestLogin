@@ -5,6 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriverInfo;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class SeleniumTest {
     private static final String TEST_PAGE = "https://the-internet.herokuapp.com/login";
@@ -30,6 +32,8 @@ public class SeleniumTest {
 
     @Test
     public void checkTrueAuthorisationProcess() {
+        //System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
         WebDriver chromeDriver = new ChromeDriver();
         chromeDriver.get(TEST_PAGE);
         loggingIn(chromeDriver, LOGIN_TRUE,PASSWORD_TRUE);
@@ -39,6 +43,8 @@ public class SeleniumTest {
     }
     @Test
     public void checkLoginFalseAuthorisationProcess(){
+        //System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
         WebDriver chromeDriver = new ChromeDriver();
         chromeDriver.get(TEST_PAGE);
         loggingIn(chromeDriver, LOGIN_FALSE,PASSWORD_TRUE);
@@ -48,6 +54,8 @@ public class SeleniumTest {
     }
     @Test
     public void checkPasswordFalseAuthorisationProcess(){
+        //System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
         WebDriver chromeDriver = new ChromeDriver();
         chromeDriver.get(TEST_PAGE);
         loggingIn(chromeDriver, LOGIN_TRUE,PASSWORD_FALSE);

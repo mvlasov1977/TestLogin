@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f64a1da0-f628-4dd3-93dd-8dfee19dba15" name="Changes" comment="Parallelism was created">
+    <list default="true" id="f64a1da0-f628-4dd3-93dd-8dfee19dba15" name="Changes" comment="refactoring tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/surefire-report.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +23,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -56,10 +59,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.ChangelistConflict"
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SeleniumTest">
+  <component name="RunManager" selected="JUnit.SeleniumTest.checkTrueAuthorisationProcess">
     <configuration name="SeleniumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestLogin" />
       <extension name="coverage">
@@ -141,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SeleniumTest.checkTrueAuthorisationProcess" />
         <item itemvalue="JUnit.SeleniumTest" />
         <item itemvalue="JUnit.SeleniumTest.checkPasswordFalseAuthorisationProcess" />
         <item itemvalue="JUnit.SeleniumTest.checkLoginFalseAuthorisationProcess" />
         <item itemvalue="JUnit.SeleniumTest.checkFalseAuthorisationProcess" />
-        <item itemvalue="JUnit.SeleniumTest.checkTrueAuthorisationProcess" />
       </list>
     </recent_temporary>
   </component>
@@ -172,12 +175,28 @@
       <option name="project" value="LOCAL" />
       <updated>1689527899236</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="surefire-report was added">
+      <created>1689528864980</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689528864980</updated>
+    </task>
+    <task id="LOCAL-00004" summary="refactoring tests">
+      <created>1689528997536</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689528997536</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Base tests for Logging In was created" />
     <MESSAGE value="Parallelism was created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parallelism was created" />
+    <MESSAGE value="surefire-report was added" />
+    <MESSAGE value="refactoring tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring tests" />
   </component>
 </project>
